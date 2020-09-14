@@ -21,6 +21,11 @@ class DevConfig(Config):
     '''
     DEBUG = True
     ENV = 'development'
+    NEWS_HIGHLIGHT_API_KEY = ''
+    NEWS_HIGHLIGHT_API_BASE_URL = ''
+    TOP_HEADLINES_URL = ''
+    EVERYTHING_URL_KEY = ''
+    SOURCES_URL_KEY = ''
 
 config_options = {
     'development': DevConfig,
