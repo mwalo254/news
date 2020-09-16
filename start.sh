@@ -1,3 +1,1 @@
-export NEWS_HIGHLIGHT_API_KEY='dea57e8ead0d4b6fa8fe54a355df32f1'
-
-python3.7 manage.py server
+clear; export FLASK_APP=manage; export FLASK_RUN_PORT=5005; flask run
