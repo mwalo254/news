@@ -1,4 +1,4 @@
-export FLASK_APP='manage.py'; 
-export FLASK_ENV='development'; 
+export FLASK_APP='manage.py';
+export FLASK_ENV='development';
 
-python3 manage.py runserver
+python manage.py runserver
